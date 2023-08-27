@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200&family=Poppins&family=Roboto+Slab:wght@200;300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+ 
+    background-size: cover;
+    width: 100%;
+    height: 539px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.container{
+    display: block;
+    color: white;
+    opacity: 1;
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 2rem;
+    padding: 40px 40px;
+    margin: 80px 550px;
+   
+}
+.countdown-container{
+    display: flex;
+    
+   
+}
+h1{
+    font-weight: normal;
+    padding: 0px 50px;
+}
+.big-text{
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    opacity: 1;
+    padding: 10px 30px;
+}
+.Coutntdown-el{
+    text-align: center;
+    justify-content: center;
+
+}
+.Coutntdown-el span{
+   font-size: 0.8rem;
+   padding: 10px 30px;
+}
